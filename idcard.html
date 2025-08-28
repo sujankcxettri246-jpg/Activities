@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STUDENT ID CARD</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            margin: 50px;
+        }
+
+        .container{
+            width: 50%;
+            border: 5px solid blue;
+            background-color: yellow;
+            padding: 10px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .left-box, .right-box{
+            flex: 1;
+            background-color: white;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+
+        .photo-section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0;
+            gap: 10px;
+        }
+
+        .photo{
+            width: 80px;
+            height: 100px;
+            border: 2px solid blue;
+            overflow: hidden;
+        }
+
+        .photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .dob{
+            font-size: 13px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .student-name{
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+
+        .student-info{
+            text-align: center;
+            font-size: 13px;
+        }
+
+        .right-box b {
+            color: blue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h2>STUDENT ID CARD</h2>
+    <div class="container">
+
+        <!-- LEFT BOX -->
+        <div class="left-box">
+            <div class="photo-section">
+                <div class="photo">
+                    <img src="mypic246.jpg.jpg" alt="Student Photo">
+                </div>
+                <div class="dob">DOB: 31-08-2005</div>
+            </div>
+
+            <div class="student-name">Sujan Kshetri</div>
+            <div class="student-info">Department: Computer Science</div>
+            <div class="student-info">Roll No: CSC202011</div>
+        </div>
+
+        <!-- RIGHT BOX -->
+        <div class="right-box">
+            <b>Blood Group:</b> O+ <br><br>
+            <b>Address:</b> 123,Example Street <br><br>
+            <b>Student's No:</b> +91 1234567890<br><br>
+            <b>Email:</b> sujankcxettri246@gmail.com <br>
+        </div>
+    </div>
+
+
+</body>
+</html>
